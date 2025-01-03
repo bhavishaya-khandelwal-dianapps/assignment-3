@@ -1,0 +1,25 @@
+{
+  "name": "assignment-3",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/bhavishaya-khandelwal-dianapps/assignment-3#readme",
+  "bugs": {
+    "url": "https://github.com/bhavishaya-khandelwal-dianapps/assignment-3/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhavishaya-khandelwal-dianapps/assignment-3.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node --watch index.js"
+  },
+  "dependencies": {
+    "express": "^4.21.2",
+    "socket.io": "^4.8.1"
+  }
+}
