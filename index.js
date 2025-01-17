@@ -41,6 +41,7 @@ wss.on("connection", (ws) => {
 
         //* I want to broadcast that msg to all the connected clients 
         wss.clients.forEach((client) => {
+            //* This condition ensures that the message isn't sent back to the same client that sent it.
             if(client != ws)
             client.send(msg.toString());
         });
